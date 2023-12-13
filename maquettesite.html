@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./image/logo.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="maquettesite.css">
+        <link href="https://fonts.googleapis.com/css">
+        <title>Apexware - Team</title>
+    </head>
+
+    <body>
+    <header class="p-3 mb-2 bg-dark text-danger border-bottom border-danger">
+        <!--nav bar responsive issu de bootstrap-->
+        <!--On rend la navbar avec le modèle dark-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <!--On rend les textes rouge avec la classe text-danger-->
+                <a class="navbar-brand text-danger" href="./index.html">
+                    <img src="./image/Leonardo_Diffusion_XL_Logo_for_freelancer_developper_web_1-removebg-preview.png" 
+                    alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+                    Apexware
+                </a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="./Catalogue.html">Catalogue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="./maquettesite.html">Et nous ?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                <!--Bordure rouge au bouton-->
+                <button class="border border-danger btn-btn-outline-success bg-dark rounded text-danger" type="submit">Trouvé</button>
+                </form>
+            </div>
+            </div>
+        </nav> 
+    </header>
+    <!--mb pour margin bottom, display-1 rend le h1 plus gros-->
+    <h1 class="mb-5 pt-5 text-center display-1">La Team</h1>
+    <main>
+        <!--Début première grille-->
+        <div class="container text-center">
+            <!--1 col/ligne sur xs, 2 col/lignes sur lg-->
+            <div class="row row-cols-xs-1 row-lg-cols-2">
+                <!--sur xs prend les 12 col sur lg juste 2-->
+              <div class="col-xs-12 col-lg-2">
+                <div>
+                    <div class="lang">
+                        <aside>
+                        <div class="flexlang">
+                            <h2 class="pt-5 display-7">Langages</h2>
+                            <br>
+                            <br>
+                            <!--Au début c'était une ul on peux enlever les puces avec list-unstyled-->
+                            <!--Deuxième grille qui contient les langages-->
+                            <div class="container">
+                                <!--lg pour les écrants larges, md pour les tailles intermédiaires, sm pour les petits, et xs pour les plus petits-->
+                                <div class="row row-cols-lg-1 row-cols-md-3 row-cols-sm-3 row-cols-xs-1 ">
+                                  <div class="col-12">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                                        <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="col-12">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                                        <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
+                                    </svg>
+                                  </div>
+                                  <div class="col-12">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                                        <path fill="#2395ec" d="M47.527,19.847c-0.13-0.102-1.345-1.007-3.908-1.007c-0.677,0.003-1.352,0.06-2.019,0.171 c-0.496-3.354-3.219-4.93-3.345-5.003l-0.688-0.392l-0.453,0.644c-0.567,0.866-1.068,1.76-1.311,2.763 c-0.459,1.915-0.18,3.713,0.806,5.25C35.417,22.928,33.386,22.986,33,23H1.582c-0.826,0.001-1.496,0.66-1.501,1.474 c-0.037,2.733,0.353,5.553,1.306,8.119c1.089,2.818,2.71,4.894,4.818,6.164C8.567,40.184,12.405,41,16.756,41 c1.965,0.006,3.927-0.169,5.859-0.524c2.686-0.487,5.271-1.413,7.647-2.74c1.958-1.119,3.72-2.542,5.219-4.215 c2.505-2.798,3.997-5.913,5.107-8.682c0.149,0,0.298,0,0.442,0c2.743,0,4.429-1.083,5.359-1.99 c0.618-0.579,1.101-1.284,1.414-2.065L48,20.216L47.527,19.847z"></path><path fill="#2395ec" d="M8,22H5c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C9,21.552,8.552,22,8,22z"></path><path fill="#2395ec" d="M14,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C15,21.552,14.552,22,14,22z"></path><path fill="#2395ec" d="M20,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C21,21.552,20.552,22,20,22z"></path><path fill="#2395ec" d="M26,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C27,21.552,26.552,22,26,22z"></path><path fill="#2395ec" d="M14,16h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C15,15.552,14.552,16,14,16z"></path><path fill="#2395ec" d="M20,16h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C21,15.552,20.552,16,20,16z"></path><path fill="#2395ec" d="M26,16h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C27,15.552,26.552,16,26,16z"></path><path fill="#2395ec" d="M26,10h-3c-0.552,0-1-0.448-1-1V6c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C27,9.552,26.552,10,26,10z"></path><path fill="#2395ec" d="M32,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C33,21.552,32.552,22,32,22z"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                            </div>
+                            <!--Fin deuxième grille-->
+                        </div>
+                        </aside>
+                    </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-lg-10">
+                <!--Début troisième grille-->
+                <div class="container text-center">
+                    <div class="profils">
+                        <div class="row row-cols-lg-2">
+                            <div class="col">
+                                <a href="./cv/cvaur.html" class=" link-success profil1case">
+                                    <h3 class="pt-3">Aurelie Vauquelin</h3>
+                                    <!--rounded remplace border radius-->
+                                    <img class="rounded-circle" src="https://i.ibb.co/GHbfDxK/Aurelie-2.jpg" alt="Aurelie" border="0" width="300" height="auto" />
+                                    <p>Admistratrice DevOps junior</p>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="./cv/cvmat.html" class=" link-dark profil2case">
+                                    <h3 class="pt-3">Mateo Nicoud</h3>
+                                    <img class="rounded-circle" src="https://i.ibb.co/NKtCdT3/mateo.jpg" alt="mateo" border="0" width="300" height="auto"/>
+                                    <p>Admistrateur DevOps junior</p> 
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="./cv/cvseb.html" class="profil3case">
+                                    <h3 class="pt-3">Sebastien Journiac</h3>
+                                    <img class="rounded-circle" src="https://i.ibb.co/pnMx5nd/sebastien.jpg" alt="sebastien" border="0" width="300" height="auto"/>
+                                    <p>Admistrateur DevOps junior</p>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="./cv/cvphil.html" class=" link-danger profil4case">
+                                    <h3 class="pt-3">Philemon Maly</h3>
+                                    <img class="rounded-circle" src="https://i.ibb.co/pXzPGm7/philemon.jpg" alt="philemon" border="0" width="300" height="auto"/>
+                                    <p>Admistrateur DevOps junior</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Fin troisème grille-->
+              </div>
+            </div>
+        </div>
+        <!--Fin de la première grille-->
+    </main>
+    <footer class="pt-2">
+        <!--les contacts blablabla...-->
+        
+        <div class="f1">
+            <!--Début du dernier tableau-->
+            <div class="container text-left">
+                <!--gy pour la taille des goutières-->
+                <div class="row row-cols-lg-3 gy-3">
+                  <div class="col-lg-4" >
+                    <h4 class="pt-5 mb-5 text-white">Nous rencontrer</h4>
+                    <p class="text-white">1 rue Roland Moreno<br/>
+                        26300 Alixan<br/>
+                        04.45.12.34.56<br/>
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <h4 class="pt-5 mb-5 text-white">Apexware</h4>
+                    <!--LIEN A FAIRE-->
+                    <p class="text-white">A propos de nous<br/>
+                    Jobs<br/>
+                    Presse<br/>
+                    Protection des données<br/>
+                    CGU & CGV<br/>
+                    Plan du site<br/>
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <h4 class="pt-5 mb-5 text-white">Client</h4>
+                    <p class="text-white">Pourquoi nous ?<br/>
+                    Comment ça marche?<br/>
+                    Offres et tarifs<br/>
+                    Ressources<br/><!--????-->
+                    Retours d'expèrience<br/>
+                    Aide<br/>
+                    SSO<br/><!--????-->
+                    </p>
+                  </div>
+                
+                </div>
+            </div>
+            <!--Fin dernier tableau-->
+        </div>
+        <div>
+            <br>
+            <span class="text-white">Copyright c 2023 Apexware. Tous droits réservés.</span>
+        </div>
+    </footer>
+
+
+    <!--Bundle js de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

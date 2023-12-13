@@ -1,0 +1,65 @@
+body{
+    background-image:
+    url(./image/ajbQLH9kXbCWp2sYPXAT--2--tvxh5.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat:  no-repeat;
+    position: relative;
+}
+@font-face {
+    font-family: "Denton";
+    src: url("./font/DentonBETA2.ttf");
+}
+@font-face {
+    font-family: "Games-of-Squids";
+    src: url("./font/Game\ Of\ Squids.ttf");
+}
+h1{
+    color: #f1f1cb !important; 
+    font-family: "Denton", sans-serif;
+    text-shadow:
+    0.1vw 0vw 25vw #ff7474,
+    0.125vw 0vw 25vw #ff7474,
+    0.1vw 0vw 0.1vw #ff3131,
+    0.125vw 0vw 0.1vw #ff3131,
+    0.15vw 0vw 0.1vw #ff3131,
+    0.1vw 0vw 2vw #ff3131,
+    0.125vw 0vw 2vw #ff3131,
+    0.15vw 0vw 2vw #ff3131,
+    0.1vw 0vw 1vw #fb0404,
+    0.125vw 0vw 1vw #fb0404,
+    0.15vw 0vw 5vw #fb0404,
+    0.1vw 0vw 5vw #fb0404,
+    0.125vw 0vw 20vw #fb0404,
+    0.15vw 0vw 1vw #fb0404;
+}
+footer {
+    background-color: #011627;
+
+}
+h4{
+    color: #f1f1cb !important; 
+    font-family: "Denton", sans-serif;
+    text-shadow:
+
+    0.1vw 0vw 25vw #859bfc,
+    0.125vw 0vw 25vw #859bfc,
+  
+    0.1vw 0vw 0.1vw #3157ff,
+    0.125vw 0vw 0.1vw #3157ff,
+    0.15vw 0vw 0.1vw #3157ff,
+  
+    0.1vw 0vw 2vw #4b6cff,
+    0.125vw 0vw 2vw #4b6cff,
+    0.15vw 0vw 2vw #4b6cff,
+    
+    0.1vw 0vw 1vw #002fff,
+    0.125vw 0vw 1vw #002fff,
+    0.15vw 0vw 5vw #002fff,
+    
+    0.1vw 0vw 5vw #002fff,
+    0.125vw 0vw 20vw #002fff,
+    0.15vw 0vw 1vw #002fff;
+}

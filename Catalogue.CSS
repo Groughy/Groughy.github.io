@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Denton";
+    src: url("./font/DentonBETA2.ttf");
+}
+@font-face {
+    font-family: "Games-of-Squids";
+    src: url("./font/Game\ Of\ Squids.ttf");
+}
+.navbar {
+    background-color: black;
+    border-bottom: solid red 2px;
+}
+.navbar-brand {
+    color: red !important;
+    text-shadow: 2px 2px 5px red;
+}
+.nav-link {
+    color: red !important;
+    text-shadow: 2px 2px 5px red;
+}
+.form-control { /*barre dans BARRE DE RECHERCHE*/
+    color: red !important;
+}
+h1{
+    color: #f1f1cb !important; 
+    font-family: "Denton", sans-serif;
+    text-shadow:
+
+    0.1vw 0vw 25vw #ff7474,
+    0.125vw 0vw 25vw #ff7474,
+  
+    0.1vw 0vw 0.1vw #ff3131,
+    0.125vw 0vw 0.1vw #ff3131,
+    0.15vw 0vw 0.1vw #ff3131,
+  
+    0.1vw 0vw 2vw #ff3131,
+    0.125vw 0vw 2vw #ff3131,
+    0.15vw 0vw 2vw #ff3131,
+    
+    0.1vw 0vw 1vw #fb0404,
+    0.125vw 0vw 1vw #fb0404,
+    0.15vw 0vw 5vw #fb0404,
+    
+    0.1vw 0vw 5vw #fb0404,
+    0.125vw 0vw 20vw #fb0404,
+    0.15vw 0vw 1vw #fb0404;
+}
+.btn-btn-outline-success {
+    background-color: black;
+    border: solid red;
+    color: red;
+    border-radius: 10%;
+}
+.btn-btn-outline-success:hover {
+    background-color: red;
+    color: black;
+    border-radius: 10%;
+}
+
+main {
+    background-color: #364156;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+footer {
+    background-color: #011627;
+    color : white;
+    padding-top: 2vw;
+
+}
+/*les trucs intéressant du footer sur un écrant dekstop*/
+.f1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-left: 3%;
+}
+h4{
+    color: #f1f1cb !important; 
+    font-family: "Denton", sans-serif;
+    text-shadow:
+
+    0.1vw 0vw 25vw #859bfc,
+    0.125vw 0vw 25vw #859bfc,
+  
+    0.1vw 0vw 0.1vw #3157ff,
+    0.125vw 0vw 0.1vw #3157ff,
+    0.15vw 0vw 0.1vw #3157ff,
+  
+    0.1vw 0vw 2vw #4b6cff,
+    0.125vw 0vw 2vw #4b6cff,
+    0.15vw 0vw 2vw #4b6cff,
+    
+    0.1vw 0vw 1vw #002fff,
+    0.125vw 0vw 1vw #002fff,
+    0.15vw 0vw 5vw #002fff,
+    
+    0.1vw 0vw 5vw #002fff,
+    0.125vw 0vw 20vw #002fff,
+    0.15vw 0vw 1vw #002fff;
+}
+h3{
+    color: #f1f1cb !important; 
+    font-family: "Games-of-Squids", sans-serif;
+    text-shadow:
+    
+  0.1vw 0vw 25vw #ff7474,
+  0.125vw 0vw 25vw #ff7474,
+
+  0.1vw 0vw 0.1vw #ff3131,
+  0.125vw 0vw 0.1vw #ff3131,
+  0.15vw 0vw 0.1vw #ff3131,
+
+  0.1vw 0vw 2vw #ff3131,
+  0.125vw 0vw 2vw #ff3131,
+  0.15vw 0vw 2vw #ff3131,
+  
+  0.1vw 0vw 1vw #fb0404,
+  0.125vw 0vw 1vw #fb0404,
+  0.15vw 0vw 5vw #fb0404,
+  
+  0.1vw 0vw 5vw #fb0404,
+  0.125vw 0vw 20vw #fb0404,
+  0.15vw 0vw 1vw #fb0404;
+}

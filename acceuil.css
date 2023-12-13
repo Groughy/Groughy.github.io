@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Game Of Squids";
+    src: url(./font/Game\ Of\ Squids.ttf);
+}
+@font-face {
+    font-family: "Denton";
+    src: url("./font/DentonBETA2.ttf");
+}
+.navbar-brand {
+    text-shadow: 2px 2px 5px red;
+}
+.nav-link {
+    text-shadow: 2px 2px 5px red;
+}
+body {
+    background-image: url("./image/zgwjpZ0kseQCT7g00rRL--14--dpfsk.jpg");
+    background-size: cover;
+}
+.emblemteam span{
+    text-shadow: 
+    0.1vw 0vw 25vw black,
+    0.125vw 0vw 25vw black,
+  
+    0.1vw 0vw 0.1vw black,
+    0.125vw 0vw 0.1vw black,
+    0.15vw 0vw 0.1vw black,
+  
+    0.1vw 0vw 2vw black,
+    0.125vw 0vw 2vw black,
+    0.15vw 0vw 2vw black,
+    
+    0.1vw 0vw 1vw black,
+    0.125vw 0vw 1vw black,
+    0.15vw 0vw 5vw black,
+    
+    0.1vw 0vw 5vw black,
+    0.125vw 0vw 20vw black,
+    0.15vw 0vw 1vw black;
+}
+
+h1{
+    color: #f1f1cb !important; 
+    font-family: "Game Of Squids", sans-serif;
+    font-size: 10vw !important;
+    text-shadow:
+    
+  0.1vw 0vw 25vw #ff7474,
+  0.125vw 0vw 25vw #ff7474,
+
+  0.1vw 0vw 0.1vw #ff3131,
+  0.125vw 0vw 0.1vw #ff3131,
+  0.15vw 0vw 0.1vw #ff3131,
+
+  0.1vw 0vw 2vw #ff3131,
+  0.125vw 0vw 2vw #ff3131,
+  0.15vw 0vw 2vw #ff3131,
+  
+  0.1vw 0vw 1vw #fb0404,
+  0.125vw 0vw 1vw #fb0404,
+  0.15vw 0vw 5vw #fb0404,
+  
+  0.1vw 0vw 5vw #fb0404,
+  0.125vw 0vw 20vw #fb0404,
+  0.15vw 0vw 1vw #fb0404;
+}
+
+.logo {
+    top:25%;
+    left: 35%;
+    scale: 120%;
+    filter:
+    drop-shadow(0.10vw 0.50vw 0.100vw rgb(235, 93, 12))
+    drop-shadow(0.10vw 0.50vw 0.100vw rgb(255, 217, 0));
+
+
+}
+footer {
+    background-color: #011627;
+}
+h4{
+    color: #f1f1cb !important; 
+    font-family: "Denton", sans-serif;
+    text-shadow:
+
+    0.1vw 0vw 25vw #859bfc,
+    0.125vw 0vw 25vw #859bfc,
+  
+    0.1vw 0vw 0.1vw #3157ff,
+    0.125vw 0vw 0.1vw #3157ff,
+    0.15vw 0vw 0.1vw #3157ff,
+  
+    0.1vw 0vw 2vw #4b6cff,
+    0.125vw 0vw 2vw #4b6cff,
+    0.15vw 0vw 2vw #4b6cff,
+    
+    0.1vw 0vw 1vw #002fff,
+    0.125vw 0vw 1vw #002fff,
+    0.15vw 0vw 5vw #002fff,
+    
+    0.1vw 0vw 5vw #002fff,
+    0.125vw 0vw 20vw #002fff,
+    0.15vw 0vw 1vw #002fff;
+}

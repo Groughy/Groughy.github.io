@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Denton";
+    src: url(../font/DentonBETA2.ttf);
+}
+h1{
+    color: #f1f1cb !important; 
+    font-family: "Denton", sans-serif;
+    text-shadow:
+    
+  0.1vw 0vw 25vw #ff7474,
+  0.125vw 0vw 25vw #ff7474,
+
+  0.1vw 0vw 0.1vw #ff3131,
+  0.125vw 0vw 0.1vw #ff3131,
+  0.15vw 0vw 0.1vw #ff3131,
+
+  0.1vw 0vw 2vw #ff3131,
+  0.125vw 0vw 2vw #ff3131,
+  0.15vw 0vw 2vw #ff3131,
+  
+  0.1vw 0vw 1vw #fb0404,
+  0.125vw 0vw 1vw #fb0404,
+  0.15vw 0vw 5vw #fb0404,
+  
+  0.1vw 0vw 5vw #fb0404,
+  0.125vw 0vw 20vw #fb0404,
+  0.15vw 0vw 1vw #fb0404;
+}
+header {
+    background-color: #364156;
+}
+/*Navebarre*/
+.navbar {
+    background-color: black;
+    border-bottom: solid red 2px;
+}
+.navbar-brand {
+    color: red !important;
+    text-shadow: 2px 2px 5px red;
+}
+.nav-link {
+    color: red !important;
+    text-shadow: 2px 2px 5px red;
+}
+.form-control { /*barre dans BARRE DE RECHERCHE*/
+    color: red !important;
+}
+.btn-btn-outline-success {
+    background-color: black;
+    border: solid red;
+    color: red;
+    border-radius: 10%;
+}
+.btn-btn-outline-success:hover {
+    background-color: red;
+    color: black;
+    border-radius: 10%;
+}
+footer {
+    background-color: #011627;
+
+}
+h4{
+    color: #f1f1cb !important; 
+    font-family: "Denton", sans-serif;
+    text-shadow:
+
+    0.1vw 0vw 25vw #859bfc,
+    0.125vw 0vw 25vw #859bfc,
+  
+    0.1vw 0vw 0.1vw #3157ff,
+    0.125vw 0vw 0.1vw #3157ff,
+    0.15vw 0vw 0.1vw #3157ff,
+  
+    0.1vw 0vw 2vw #4b6cff,
+    0.125vw 0vw 2vw #4b6cff,
+    0.15vw 0vw 2vw #4b6cff,
+    
+    0.1vw 0vw 1vw #002fff,
+    0.125vw 0vw 1vw #002fff,
+    0.15vw 0vw 5vw #002fff,
+    
+    0.1vw 0vw 5vw #002fff,
+    0.125vw 0vw 20vw #002fff,
+    0.15vw 0vw 1vw #002fff;
+}

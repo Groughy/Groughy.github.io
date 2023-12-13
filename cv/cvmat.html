@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Matéo</title>
+    <link rel="shortcut icon" href="../image/logo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="cvphil.css"/>
+    </head>
+    <body>
+        <!--nav bar responsive issu de bootstrap-->
+        <!--On rend la navbar avec le modèle dark-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <!--On rend les textes rouge avec la classe text-danger-->
+                <a class="navbar-brand text-danger" href="../index.html">
+                    <img src="../image/Leonardo_Diffusion_XL_Logo_for_freelancer_developper_web_1-removebg-preview.png" 
+                    alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+                    Apexware
+                </a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="../Catalogue.html">Catalogue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="../maquettesite.html">Et nous ?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="../contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                <!--Bordure rouge au bouton-->
+                <button class="border border-danger btn-btn-outline-success bg-dark rounded text-danger" type="submit">Trouvé</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+        <header class="container-fluid shadow p-3 text-white rounded"> <!--Cette class contient:Photo\h1 cv\infos contact perso-->
+            <div class="row row-cols-1 row-cols-lg-3"> <!--class en Ligne : 1 colonne mobile (bootstrap applique les paramètres mobil par défault) et 3 colonne en Large-->
+                <div class="col-12"> <!--Prend 12 colonne (donc tout l'écran en mobil)-->    
+                    <p> NICOUD Matéo<br/>
+                    mateo.nicoud@le-campus-numerique.fr<br/>
+                    Arras-sur-Rhône<br/>
+                    Tel: 06.14.04.79.08<br/>
+                    23 ans <br/> 
+                    Permis B <br/>
+                    Valence et ses alentours<br/>
+                    </p>
+                </div>
+                <div class="pt-5 text-center col-12"> <!--Prend 12 colonne (donc tout l'écran en mobil)-->
+                    <h1>Curriculum Vitae</h1>
+                </div>
+                <div class="col-lg-2"></div> 
+                <div class="col-12 col-lg-2">
+                <img src="https://i.ibb.co/NKtCdT3/mateo.jpg" class="rounded-circle img-fluid" alt="Ma photo cv">
+                </div>
+            </div>
+        </header>
+        
+        <div class="shadow-sm container-fluid mt-3 p-3 bg-dark-subtle rounded">
+            <div class="text-center">
+            <h3>DESCRIPTIF</h3>
+            <p> Je suis sérieux, responsable et curieux. J’ai 23 ans, et <br> également très enthousiaste à
+                l’idée de trouver un emploi dans le milieu de DevOPS.</p>
+            </div>
+        </div>
+
+        <main class="container-fluid text-center">
+            <div class="m-3 row">
+                <div class="row">
+                <aside class="p-3 shadow-sm bg-body-secondary rounded col-xs-12 col-lg-5">
+                    <h2 class="lien">HOBBIES</h2>
+                    <ol>
+                    <li>Manga/animé</li>
+                    <li>Jeux vidéos</li>
+                    <li>Culture Japonaise</li>
+                    </ol>
+                </aside>
+                <div class="p-3 col-xs-0 col-lg-2">
+                </div>
+                <div class="p-3 shadow-sm bg-body-secondary rounded col-xs-12 col-lg-5">
+                <h2>COMPETENCES</h2>
+                    <ul>
+                        <li>Anglophone (entre B2 et B1)</li>
+                        <li>Photoshop</li>
+                        <li>Suite microsoft office</li>
+                    </ul>
+                </div>
+                </div>
+                    <div class="p-3 row">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr class="table-danger">
+                                    <th colspan="2"> Expériences professionnelles</th>
+                                </tr>        
+                            </thead>
+                            
+                                <tr>
+                                    <td>Stage d'observation - fnac - vendeur</td>
+                                    <td>2022 - 2 semaines</td>
+                                </tr>
+                                <tr>
+                                    <td>Stage d'observation - developpement numérique</td>
+                                    <td>2023 - 1 semaine</td>
+                                </tr>             
+                        </table>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr class="table-danger">
+                                    <th colspan="2"> Diplômes et Formations</th>
+                                </tr>
+                            </thead>
+                            
+                                <tr>
+                                    <td>Bac S spécialisation sciences de l'ingénieur option ISN</td>
+                                    <td>2018</td>
+                                </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="pt-2">
+            <!--les contacts blablabla...-->
+            
+            <div class="f1">
+                <!--Début du dernier tableau-->
+                <div class="container text-left">
+                    <!--gy pour la taille des goutières-->
+                    <div class="row row-cols-lg-3 gy-3">
+                      <div class="col-lg-4" >
+                        <h4 class="pt-5 mb-5 text-white">Nous rencontrer</h4>
+                        <p class="text-white">1 rue Roland Moreno<br/>
+                            26300 Alixan<br/>
+                            04.45.12.34.56<br/>
+                        </p>
+                      </div>
+                      <div class="col-lg-4">
+                        <h4 class="pt-5 mb-5 text-white">Apexware</h4>
+                        <!--LIEN A FAIRE-->
+                        <p class="text-white">A propos de nous<br/>
+                        Jobs<br/>
+                        Presse<br/>
+                        Protection des données<br/>
+                        CGU & CGV<br/>
+                        Plan du site<br/>
+                        </p>
+                      </div>
+                      <div class="col-lg-4">
+                        <h4 class="pt-5 mb-5 text-white">Client</h4>
+                        <p class="text-white">Pourquoi nous ?<br/>
+                        Comment ça marche?<br/>
+                        Offres et tarifs<br/>
+                        Ressources<br/><!--????-->
+                        Retours d'expèrience<br/>
+                        Aide<br/>
+                        SSO<br/><!--????-->
+                        </p>
+                      </div>
+                    
+                    </div>
+                  </div>
+                <div>
+                <!--Fin dernier tableau-->
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            <div>
+                <br>
+                <span class="text-white">Copyright c 2023 Apexware. Tous droits réservés.</span>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Philémon</title>
+    <link rel="shortcut icon" href="../image/logo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="cvphil.css"/>
+    </head>
+    <body>
+        <!--nav bar responsive issu de bootstrap-->
+        <!--On rend la navbar avec le modèle dark-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <!--On rend les textes rouge avec la classe text-danger-->
+                    <a class="navbar-brand text-danger" href="../index.html">
+                        <img src="../image/Leonardo_Diffusion_XL_Logo_for_freelancer_developper_web_1-removebg-preview.png" 
+                        alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+                        Apexware
+                    </a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="../Catalogue.html">Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="../maquettesite.html">Et nous ?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="../contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                    <!--Bordure rouge au bouton-->
+                    <button class="border border-danger btn-btn-outline-success bg-dark rounded text-danger" type="submit">Trouvé</button>
+                    </form>
+                </div>
+                </div>
+            </nav> 
+        <!--Cette class contient:Photo\h1 cv\infos contact perso-->
+        <header class="container-fluid shadow p-3 text-white rounded">
+            <!--class en Ligne : 1 colonne mobile (bootstrap applique les paramètres mobil par défault) et 3 colonnes en écran Large-->
+            <div class="row row-cols-1 row-cols-lg-3">
+                <!--Prend 12 colonnes (donc tout l'écran en mobil)-->
+                <div class="col-12">    
+                    <p> MALY Philémon<br/>
+                    maly.phil@hotmail.fr<br/>
+                    Tournon-sur-Rhône<br/>
+                    Tel: 06.19.93.13.40<br/>
+                    35 ans <br/> 
+                    Permis B & Moto <br/>
+                    Véhicule personnel<br/>
+                    Valence et ses alentours<br/>
+                    </p>
+                </div>
+                <!--Prend 12 colonnes (donc tout l'écran en mobil)-->
+                <div class="pt-5 text-center col-12">
+                    <h1>Curriculum Vitae</h1>
+                </div>
+                <!--Class vide qui prend 2 colonnes en écran Large (permet de "pousser la classe suivante sur la droite")-->
+                <div class="col-lg-2"></div>
+                <!-- Prend 12 colonnes en mobil et 2 en écran Large-->
+                <div class="col-12 col-lg-2">
+                <img src="https://i.ibb.co/pXzPGm7/philemon.jpg" class="rounded-circle img-fluid" alt="Ma photo cv">
+                </div>
+            </div>
+        </header>
+        <!--"container-fluid" qui prend la largeur de l'ecran avec une box-shadow/background/margin padding/bord arrondis-->
+        <div class="shadow-sm container-fluid mt-3 p-3 bg-dark-subtle rounded">
+            <div class="text-center">
+            <h3>DESCRIPTIF</h3>
+            <p> Multiples expériences au bénéfice d'une reconversion professionnelle. 
+            D'Opérateur numérique à Administrateur DevOps</p>
+            </div>
+        </div>
+        <!--container qui contient HOBBIES/COMPETENCES/2 TABLEAUX-->
+        <main class="container-fluid text-center">
+            <div class="m-3 row">
+                <!--class qui contient: HOBBIES/COMPETENCES-->
+                <div class="row">
+                    <aside class="p-3 shadow-sm bg-body-secondary rounded col-xs-12 col-lg-5">
+                        <h2>HOBBIES</h2>
+                        <ol>
+                        <li>Sport</li>
+                        <li>Musiques</li>
+                        <li>Dessins</li>
+                        <li>Jeux vidéos</li>
+                        <li>Culture Japonaise</li>
+                        </ol>
+                    </aside>
+                    <div class="p-3 col-xs-0 col-lg-2"></div>
+                    <div class="p-3 shadow-sm bg-body-secondary rounded col-xs-12 col-lg-5">
+                    <h2>COMPETENCES</h2>
+                        <ul>
+                            <li>Notion en programmation informatique appliquées aux machines-outils</li>
+                            <li>Maîtrise des machines à commande numérique</li>
+                            <li>Optimiser la production</li>
+                            <li>Lecture et interprétation de plans</li>
+                            <li>Respect des normes de sécurité</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--class qui contient : TABLEAU 1/TABLEAU 2-->
+                <div class="p-3 row">
+                    <!--table table-bordered = Tableau avec bordures-->
+                    <table class="table table-bordered">
+                    <!--Tableau 1-->
+                            <thead>
+                                <tr class="table-danger">
+                                    <th colspan="2"> Expériences professionnelles</th>
+                                </tr>        
+                            </thead>
+                            
+                                <tr>
+                                    <td>Opérateur numérique</td>
+                                    <td>De 2021 à 2023 <strong>MédiaFab</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Préparateur de commandes polyvalent</td>
+                                    <td>De 2016 à 2021 <strong>DIADOM</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Agent de chargement</td>
+                                    <td>2015 <strong>G.I.M.A.S</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Vendeur spécialisé en boutique</td>
+                                    <td>De 2011 à 2023 <strong>Le Temps des Cerises</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Paysagiste</td>
+                                    <td>De 2007 à 2010 <strong>E.J.P</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Aide-Fauconnier</td>
+                                    <td>2006 <strong>Les Aigles de Beaucaire</strong></td>
+                                </tr>
+                            
+                        </table>
+                        <table class="table table-bordered">
+                        <!--Tableau 2-->
+                            <thead>
+                                <tr class="table-danger">
+                                    <th colspan="2"> Diplômes et Formations</th>
+                                </tr>
+                            </thead>
+                            
+                                <tr>
+                                    <td> Baccalauréat S.T.A.E</td>
+                                    <td> De 2004 à 2007 <strong>Lycée Honoré de Balzac</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Vendeur spécialisé en magasin</td>
+                                    <td>De 2010 à 2011 <strong>AFPA</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>CACES TP 1 2 4</td>
+                                    <td>De 2013 à 2014 <strong>FORMATRANS</strong></td>
+                                </tr>
+                        </table>
+                </div>
+                </div>
+            </div>
+        </main>
+        <footer class="pt-2">
+            <!--les contacts blablabla...-->
+            
+            <div class="f1">
+                <!--Début du dernier tableau-->
+                <div class="container text-left">
+                    <!--gy pour la taille des goutières-->
+                    <div class="row row-cols-lg-3 gy-3">
+                      <div class="col-lg-4" >
+                        <h4 class="pt-5 mb-5 text-white">Nous rencontrer</h4>
+                        <p class="text-white">1 rue Roland Moreno<br/>
+                            26300 Alixan<br/>
+                            04.45.12.34.56<br/>
+                        </p>
+                      </div>
+                      <div class="col-lg-4">
+                        <h4 class="pt-5 mb-5 text-white">Apexware</h4>
+                        <!--LIEN A FAIRE-->
+                        <p class="text-white">A propos de nous<br/>
+                        Jobs<br/>
+                        Presse<br/>
+                        Protection des données<br/>
+                        CGU & CGV<br/>
+                        Plan du site<br/>
+                        </p>
+                      </div>
+                      <div class="col-lg-4">
+                        <h4 class="pt-5 mb-5 text-white">Client</h4>
+                        <p class="text-white">Pourquoi nous ?<br/>
+                        Comment ça marche?<br/>
+                        Offres et tarifs<br/>
+                        Ressources<br/><!--????-->
+                        Retours d'expèrience<br/>
+                        Aide<br/>
+                        SSO<br/><!--????-->
+                        </p>
+                      </div>
+                    
+                    </div>
+                  </div>
+                <!--Fin dernier tableau-->
+            </div>
+            <div>
+                <br>
+                <span class="text-white">Copyright c 2023 Apexware. Tous droits réservés.</span>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+</html>
