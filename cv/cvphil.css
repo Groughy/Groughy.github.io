@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Game Of Squids";
-    src: url(./font/Game\ Of\ Squids.ttf);
+    src: url(../font/Game\ Of\ Squids.ttf);
     font-display: swap;
 }
 @font-face {
     font-family: "Denton";
-    src: url("./font/DentonBETA2.ttf");
+    src: url("../font/DentonBETA2.ttf");
     font-display: swap;
 }
 h1{

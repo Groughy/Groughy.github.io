@@ -1,3 +1,4 @@
+/*Le font display permet de charger une première police en attendant la personnalisée.*/
 @font-face {
     font-family: "Game Of Squids";
     src: url(./font/Game\ Of\ Squids.ttf);
@@ -18,7 +19,7 @@ body {
     background-image: url("./image/zgwjpZ0kseQCT7g00rRL--14--dpfsk.webp");
     background-size: cover;
 }
-.emblemteam span{
+.emblemteam h2{
     text-shadow: 
     0.1vw 0vw 25vw black,
     0.125vw 0vw 25vw black,
@@ -79,7 +80,7 @@ h1{
 footer {
     background-color: #011627;
 }
-h4{
+h3{
     color: #f1f1cb !important; 
     font-family: "Denton", sans-serif;
     text-shadow:
