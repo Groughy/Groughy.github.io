@@ -42,7 +42,28 @@
                 <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
                 <!--Bordure rouge au bouton-->
-                <button class="border border-danger btn-btn-outline-success bg-dark rounded text-danger" type="submit">Trouvé</button>
+                <!--Bouton de modal-->
+                <button type="button" class="btn btn-btn-outline-success border border-danger bg-dark rounded text-danger" data-bs-toggle="modal" data-bs-target="#achat">
+                   trouver
+                </button>
+                <div class="modal fade" id="achat" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header bg-secondary">
+                                <h5 class="modal-title text-danger display-1" id="ModalLabel">Apexware</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img class="text-center" src="../image/iEjBrM01.svg" alt="illustration de marteau" width="50%" height="auto">
+                                <br>
+                                <br>
+                                <span class="display-6 text-dark text-center">Ce site est une démo !</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </form>
             </div>
             </div>
