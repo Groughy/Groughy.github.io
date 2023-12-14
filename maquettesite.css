@@ -1,10 +1,12 @@
 @font-face {
-    font-family: "Denton";
-    src: url("./font/DentonBETA2.ttf");
+    font-family: "Game Of Squids";
+    src: url("./font/Game\ Of\ Squids.ttf");
+    font-display: swap;
 }
 @font-face {
-    font-family: "Games-of-Squids";
-    src: url("./font/Game\ Of\ Squids.ttf");
+    font-family: "Denton";
+    src: url("./font/DentonBETA2.ttf");
+    font-display: swap;
 }
 
 .navbar-brand {
