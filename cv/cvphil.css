@@ -1,6 +1,12 @@
 @font-face {
+    font-family: "Game Of Squids";
+    src: url(./font/Game\ Of\ Squids.ttf);
+    font-display: swap;
+}
+@font-face {
     font-family: "Denton";
-    src: url(../font/DentonBETA2.ttf);
+    src: url("./font/DentonBETA2.ttf");
+    font-display: swap;
 }
 h1{
     color: #f1f1cb !important; 
@@ -83,4 +89,9 @@ h4{
     0.1vw 0vw 5vw #002fff,
     0.125vw 0vw 20vw #002fff,
     0.15vw 0vw 1vw #002fff;
+}
+/* L'anti slash permet de simuler l'espace dans un nom.*/
+.rounded-circle\ img-fluid{
+    height: auto;
+    width: 100%;
 }

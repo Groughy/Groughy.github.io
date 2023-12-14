@@ -1,10 +1,12 @@
 @font-face {
-    font-family: "Denton";
-    src: url("./font/DentonBETA2.ttf");
+    font-family: "Game Of Squids";
+    src: url(./font/Game\ Of\ Squids.ttf);
+    font-display: swap;
 }
 @font-face {
-    font-family: "Games-of-Squids";
-    src: url("./font/Game\ Of\ Squids.ttf");
+    font-family: "Denton";
+    src: url("./font/DentonBETA2.ttf");
+    font-display: swap;
 }
 .navbar {
     background-color: black;
@@ -126,4 +128,8 @@ h3{
   0.1vw 0vw 5vw #fb0404,
   0.125vw 0vw 20vw #fb0404,
   0.15vw 0vw 1vw #fb0404;
+}
+.d-block\ w-90\ img-fluid\ mx-auto{
+    height: auto;
+    width: 100%;
 }
